@@ -4,7 +4,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../william-iven-SpVHcbuKi6E-unsplash.jpg);
+    background-image: url(william-iven-SpVHcbuKi6E-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -26,15 +26,25 @@ body{
     font-size: 20px;
     font-weight: 250;
     color: #ffff;
+    transition: all 0.5s ease-in-out;
 }
 a.one{
-    background-color: rgb(17, 87, 238);
+    background-color: rgb(59, 109, 216);
+}
+a.one:hover{
+    background-color: rgb(21, 9, 187);
 }
 a.two{
     background-color: rgb(214, 25, 189);
 }
+a.two:hover{
+    background-color: rgb(182, 11, 204);
+}
 a.three{
-    background-color: rgb(180, 20, 20);
+    background-color: rgb(173, 48, 48);
+}
+a.three:hover{
+    background-color: rgb(219, 14, 14);
 }
 .image img{
     width: 30px;
